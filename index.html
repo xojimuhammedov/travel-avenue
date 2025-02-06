@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Travel Avenue</title>
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/fontAwesome.css" />
+    <link rel="stylesheet" href="css/hero-slider.css" />
+    <link rel="stylesheet" href="css/owl-carousel.css" />
+    <link rel="stylesheet" href="css/datepicker.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet" />
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header id="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <button id="primary-nav-button" type="button">Меню</button>
+              <a href="index.html">
+                <div class="logo">
+                  <img src="./logo1.jpg" class="logo1" alt=" Логотип" />
+                </div>
+              </a>
+              <nav id="primary-nav" class="dropdown cf">
+                <ul class="dropdown menu">
+                  <li class="active"><a href="#">Главная</a></li>
+                  <li>
+                    <a class="scrollTo" data-scrollTo="blog" href="#">О нас</a>
+                  </li>
+                  <li>
+                    <a class="scrollTo" data-scrollTo="services" href="#"
+                      >Туры</a
+                    >
+                  </li>
+                  <li>
+                    <a class="scrollTo" data-scrollTo="contact" href="#"
+                      >Свяжитесь с нами</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"><img src="./img/images/ru.png" alt="" /></a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="./uz.html"
+                          ><img src="./img/images/uz.png" alt=""
+                        /></a>
+                      </li>
+                      <li>
+                        <a href="./eng.html"
+                          ><img src="./img/images/englang.png" alt=""
+                        /></a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <!-- / #primary-nav -->
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <section class="banner" id="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="banner-caption">
+              <div class="line-dec"></div>
+              <h2>ХОТИТЕ ПОПУТЕШЕСТВОВАТЬ?</h2>
+              <span
+                >Сделайте свои мечты о путешествиях реальностью: планируйте,
+                исследуйте и создавайте незабываемые воспоминания.</span
+              >
+              <div class="blue-button">
+                <a class="scrollTo" data-scrollTo="popular" href="#"
+                  >Узнать больше</a
+                >
+              </div>
+            </div>
+            <div class="submit-form">
+              <form
+                id="form-submit"
+                action="#"
+                method="get"
+                onsubmit="submitForm(event)">
+                <div class="row">
+                  <div class="col-md-3 first-item">
+                    <fieldset>
+                      <input
+                        name="name"
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Ваше имя..."
+                        required="" />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-3 second-item">
+                    <fieldset>
+                      <input
+                        name="location"
+                        type="text"
+                        class="form-control"
+                        id="location"
+                        placeholder="Введите место..."
+                        required="" />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-3 third-item">
+                    <fieldset>
+                      <input
+                        type="date"
+                        id="start"
+                        name="trip-start"
+                        value="2024-07-22"
+                        min="2024-02-16"
+                        max="2099-12-31" />
+                    </fieldset>
+                  </div>
+                  <div class="col-md-3">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="btn">
+                        Забронировать
+                      </button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular-places" id="popular">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <span>Наши популярные направления</span>
+              <h2>
+                Откройте для себя красоту, культуру и впечатления, которые
+                делают эти места по-настоящему уникальными.
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel owl-theme">
+          <div class="item popular-item">
+            <div class="thumb">
+              <img src="img/images/istanbul.jpg" alt="" />
+              <div class="text-content">
+                <h4>Стамбул</h4>
+                <span>76 забронировано</span>
+              </div>
+            </div>
+          </div>
+          <div class="item popular-item">
+            <div class="thumb">
+              <img src="img/images/sharm2.jpg" alt="" />
+              <div class="text-content">
+                <h4>Шарм-эль-Шейх</h4>
+                <span>96 забронировано</span>
+              </div>
+            </div>
+          </div>
+          <div class="item popular-item">
+            <div class="thumb">
+              <img src="img/images/best-02.jpg" alt="" />
+              <div class="text-content">
+                <h4>Таиланд</h4>
+                <span>55 забронировано</span>
+              </div>
+            </div>
+          </div>
+          <div class="item popular-item">
+            <div class="thumb">
+              <img src="img/images/best-03.jpg" alt="" />
+              <div class="text-content">
+                <h4>Аргентина</h4>
+                <span>66 забронировано</span>
+              </div>
+              <!--  <div class="plus-button">
+                            <a href="#"><i class="fa fa-plus"></i></a>
+                        </div> -->
+            </div>
+          </div>
+          <div class="item popular-item">
+            <div class="thumb">
+              <img src="img/images/dubai2.jpg" alt="" />
+              <div class="text-content">
+                <h4>Дубай</h4>
+                <span>76 забронировано</span>
+              </div>
+              <!--  <div class="plus-button">
+                            <a href="#"><i class="fa fa-plus"></i></a>
+                        </div> -->
+            </div>
+          </div>
+          <div class="item popular-item">
+            <div class="thumb">
+              <img src="img/images/saudi.jpg" alt="" />
+              <div class="text-content">
+                <h4>Саудовская Аравия</h4>
+                <span>76 забронировано</span>
+              </div>
+              <!-- <div class="plus-button">
+                            <a href="#"><i class="fa fa-plus"></i></a>
+                        </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="visit-country" style="margin-top: 30px">
+      <div class="container">
+        <div class="row">
+          <div class="">
+            <h2>Исследуйте направления легко</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div style="margin: 15px 0" class="col-lg-10">
+            <div class="items">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img
+                            style="border-radius: 20px"
+                            src="https://zamontour.uz/assets/images/afr.jpg"
+                            alt="" />
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h2>Дешевые билеты на поезд у нас</h2>
+                          <h5>Весь мир</h5>
+                          <p>
+                            Отправьтесь в железнодорожное приключение и
+                            исследуйте места назначения по всему миру. Будь то
+                            живописные пейзажи, шумные города или культурные
+                            жемчужины, наши железнодорожные услуги предлагают
+                            уникальный и комфортный способ пересечь земной шар.
+                            Погрузитесь в красоту разных культур, все из которых
+                            доступны через нашу обширную железнодорожную сеть. .
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin: 15px 0" class="col-lg-10">
+            <div class="items">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img
+                            style="border-radius: 20px"
+                            src="https://zamontour.uz/assets/images/airplane.jpg"
+                            alt="" />
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h2>
+                            Откройте для себя захватывающие предложения по
+                            авиаперелетам
+                          </h2>
+                          <h5>Глобальные направления</h5>
+                          <p>
+                            Отправьтесь в воздушное приключение и исследуйте
+                            места назначения по всему миру. Будь то
+                            захватывающие дух пейзажи, яркие города или
+                            культурные сокровища, наши авиаперевозки
+                            предоставляют удобный и захватывающий способ
+                            путешествовать по миру. Погрузитесь в богатство
+                            разнообразных культур, все легкодоступных через нашу
+                            обширную сеть авиаперевозок. .
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div style="margin: 15px 0" class="col-lg-10">
+            <div class="items">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img
+                            style="border-radius: 20px"
+                            src="https://zamontour.uz/assets/images/dubai2.jpg"
+                            alt="" />
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h2>Дубай</h2>
+                          <h5>Объединенные Арабские Эмираты</h5>
+                          <p>
+                            Дубай - город и эмират в Объединенных Арабских
+                            Эмиратах, известный своими роскошными магазинами,
+                            ультрасовременной архитектурой и оживленной ночной
+                            жизнью. Бурдж Халифа, башня высотой 830 м, владеет
+                            небоскребами города. У ее основания находится фонтан
+                            Дубая, струи и свет которого корректируются под
+                            музыку. На искусственных островах в море находится
+                            отель "Атлантис, Пальм", с аквапарком и парком
+                            морских животных.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="margin: 15px 0" class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img
+                            style="border-radius: 20px"
+                            src="https://zamontour.uz/assets/images/country-02.jpg"
+                            alt="" />
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h2>Анталья</h2>
+                          <h5>Турция</h5>
+
+                          <p>
+                            Анталья - самый быстрорастущий город в Турции, и
+                            туристы со всего мира открывают для себя его
+                            фантастическое сочетание великолепных пляжей и
+                            традиционной турецкой культуры. Дети полюбят Пляжный
+                            парк, где есть Акваленд (мечта любителя горок) и
+                            Дельфинарий (дом для дельфинов, морских львов и
+                            белых китов). Обязательно исследуйте старый центр
+                            города и посмотрите на Ворота Адриана.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="margin: 15px 0" class="col-lg-12">
+                  <div class="item last-item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img
+                            style="border-radius: 20px"
+                            src="https://zamontour.uz/assets/images/sharm2.jpg"
+                            alt="" />
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h2>Шарм-эль-Шейх</h2>
+                          <h5>Египет</h5>
+                          <p>
+                            Шарм-эль-Шейх - центр туристической активности на
+                            полуострове Синаи, и здесь находятся лучшие места
+                            для дайвинга в мире. Особенно подводные чудеса
+                            национального парка Рас-Мухаммед, которые подняли
+                            город Шарм на совершенно новый уровень. В городе
+                            есть места для дайвинга и затонувшие корабли,
+                            которые привлекают продвинутых и любителей дайвинга
+                            со всего мира, чтобы открыть для себя уникальную
+                            морскую жизнь в глубинах Красного моря.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="margin: 15px 0" class="col-lg-12">
+                  <div class="item last-item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img
+                            style="border-radius: 20px"
+                            src="https://zamontour.uz/assets/images/istanbul3.jpg"
+                            alt="" />
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h2>Стамбул</h2>
+                          <h5>Турция</h5>
+
+                          <p>
+                            Стамбул - самый населенный город в Турции и его
+                            культурный, экономический и исторический центр.
+                            Расположенный в северо-западной части Турции,
+                            разделенный Босфором на европейскую и азиатскую
+                            стороны, который соединяет Мраморное море и Черное
+                            море. Этот город единственный в мире, который
+                            находится на двух континентах.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="featured-places" id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <span>Исследуйте наши направления</span>
+              <h2>Откройте для себя Дубай, Турцию и Шарм-эль-Шейх</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="featured-item">
+              <div class="thumb">
+                <img src="img/images/dubai.jpg" alt="Дубай" />
+                <div class="overlay-content">
+                  <ul>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="down-content">
+                <h4>Опыт роскоши в Дубае</h4>
+                <span>Городской пейзаж и не только</span>
+                <p>
+                  Погрузитесь в роскошь небоскребов Дубая, роскошные шопинги и
+                  приключения в пустыне. Исследуйте город, где традиции
+                  переплетаются с современностью, предлагая удивительное
+                  сочетание культуры и роскоши.
+                </p>
+                <div class="row">
+                  <div class="col-md-6 first-button">
+                    <div class="text-button">
+                      <a href="tel:+998974420308">Узнать больше</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="text-button">
+                      <a href="#bron">Забронировать сейчас</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Повторите вышеуказанную структуру для Турции и Шарм-эль-Шейх с соответствующими данными и изображениями -->
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="featured-item">
+              <div class="thumb">
+                <img src="img/images/istanbul.jpg" alt="Турция" />
+                <div class="overlay-content">
+                  <ul>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="down-content">
+                <h4>Откройте богатство культуры Турции</h4>
+                <span>Исторические чудеса и захватывающие пейзажи</span>
+                <p>
+                  Погрузитесь в захватывающую историю Турции, от древних руин до
+                  живописных рынков. Наслаждайтесь живописными пейзажами,
+                  вкусной кухней и теплым гостеприимством, которые делают Турцию
+                  обязательным к посещению направлением.
+                </p>
+                <div class="row">
+                  <div class="col-md-6 first-button">
+                    <div class="text-button">
+                      <a href="tel:+998974420308">Узнать больше</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="text-button">
+                      <a href="#bron">Забронировать сейчас</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="featured-item">
+              <div class="thumb">
+                <img src="img/images/sharm.jpg" alt="Шарм-эль-Шейх" />
+                <div class="overlay-content">
+                  <ul>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="down-content">
+                <h4>Отдых в раю Шарм-эль-Шейха</h4>
+                <span>Солнце, море и умиротворение</span>
+                <p>
+                  Отправьтесь на потрясающие пляжи и коралловые рифы
+                  Шарм-эль-Шейха. Погрузитесь в кристально чистые воды,
+                  отдыхайте в роскошных курортах и почувствуйте абсолютное
+                  умиротворение в этом тропическом раю.
+                </p>
+                <div class="row">
+                  <div class="col-md-6 first-button">
+                    <div class="text-button">
+                      <a href="tel:+998974420308">Узнать больше</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="text-button">
+                      <a href="#bron">Забронировать сейчас</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-services" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <span>Наши услуги</span>
+              <h2>Исследуйте с уверенностью</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-item">
+              <div class="icon">
+                <img src="img/service_icon_1.png" alt="" />
+              </div>
+              <h4>Тщательно отобранные путешествия</h4>
+              <p>
+                Откройте для себя тщательно разработанные маршруты,
+                обеспечивающие высококачественные впечатления, созданные с
+                учетом ваших предпочтений. Наши экспертно созданные пакеты
+                гарантируют незабываемые приключения.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <div class="icon">
+                <img src="img/service_icon_2.png" alt="" />
+              </div>
+              <h4>Индивидуальные маршруты</h4>
+              <p>
+                Наслаждайтесь полностью настраиваемыми планами путешествий,
+                которые соответствуют вашим уникальным интересам и желаниям. Мы
+                специализируемся на создании путешествий, отражающих ваши
+                индивидуальные предпочтения и стремления.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <div class="icon">
+                <img src="img/service_icon_3.png" alt="" />
+              </div>
+              <h4>Экспертно созданные путешественные пакеты</h4>
+              <p>
+                Наши пакеты обеспечивают гармоничное сочетание комфорта,
+                приключений и погружения в культуру, обеспечивая исключительный
+                опыт путешествия.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="down-services">
+              <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                  <div class="left-content">
+                    <h4>Запланируйте свой мечтанный отдых</h4>
+                    <p>
+                      Позвольте нам позаботиться о каждой детали, когда вы
+                      отправляетесь в свое мечтанное путешествие. Будь то
+                      культурный отпуск, приключенческая экспедиция или
+                      спокойный отдых на пляже, мы гарантируем беспроблемный и
+                      незабываемый опыт путешествия.
+                    </p>
+                    <div class="blue-button">
+                      <a href="tel:+998974420308">Начать планирование</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="accordions">
+                    <ul class="accordion">
+                      <li>
+                        <a>Профессиональное руководство</a>
+                        <p>
+                          Получите рекомендации от наших экспертов по
+                          путешествиям, которые страстно создают идеальный
+                          маршрут для вас. От предложений о направлениях до
+                          советов по путешествиям, мы здесь, чтобы ваше
+                          путешествие было необычайным.
+                        </p>
+                      </li>
+                      <li>
+                        <a>Настроенные варианты</a>
+                        <p>
+                          Настройте свой опыт путешествия с настраиваемыми
+                          вариантами, обеспечивая, чтобы каждый аспект вашего
+                          путешествия соответствовал вашим предпочтениям.
+                          Выбирайте места проживания, мероприятия и многое
+                          другое, чтобы соответствовать вашему уникальному
+                          стилю.
+                        </p>
+                      </li>
+                      <li>
+                        <a>Поддержка 24/7</a>
+                        <p>
+                          Ощутите уверенность с нашей круглосуточной поддержкой
+                          клиентов. Будь то вопросы во время планирования или
+                          необходимость помощи во время путешествия, наша
+                          команда всегда здесь, чтобы вас поддержать.
+                        </p>
+                      </li>
+                    </ul>
+                    <!-- / accordion -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video-container">
+      <div class="video-content">
+        <div class="inner">
+          <a href="http://youtube.com" target="_blank"
+            ><i class="fa fa-play"></i
+          ></a>
+        </div>
+      </div>
+      <video autoplay="" loop="" muted>
+        <source src="highway-loop.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <section class="pricing-tables">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <span>Эксклюзивные предложения</span>
+              <h2>Разблокируйте свой мечтательный отпуск</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="table-item">
+              <div class="top-content">
+                <h4>Essential Explorer</h4>
+                <h1>Свяжитесь с нами</h1>
+                <span>/на заказ</span>
+              </div>
+              <ul>
+                <li><a href="#">Индивидуальное планирование маршрута</a></li>
+                <li>
+                  <a href="#"
+                    >Персонализированные рекомендации по направлениям</a
+                  >
+                </li>
+                <li><a href="#">Экспертная консультация по путешествиям</a></li>
+                <li><a href="#">Круглосуточная поддержка</a></li>
+                <li><a href="#">Гибкая ценовая политика</a></li>
+              </ul>
+              <div class="blue-button">
+                <a href="tel:+998974420308">Получить предложение</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="table-item">
+              <div class="top-content">
+                <h4>Premium Voyager</h4>
+                <h1>Свяжитесь с нами</h1>
+                <span>/на заказ</span>
+              </div>
+              <ul>
+                <li><a href="#">Роскошное проживание</a></li>
+                <li><a href="#">Эксклюзивные впечатления</a></li>
+                <li><a href="#">Частные экскурсии с гидом</a></li>
+                <li><a href="#">Индивидуальные туристические пакеты</a></li>
+                <li><a href="#">Ценообразование по договоренности</a></li>
+              </ul>
+              <div class="blue-button">
+                <a href="tel:+998974420308">Получить предложение</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="table-item">
+              <div class="top-content">
+                <h4>Ultimate Wanderer</h4>
+                <h1>Свяжитесь с нами</h1>
+                <span>/на заказ</span>
+              </div>
+              <ul>
+                <li><a href="#">VIP туристический консьерж</a></li>
+                <li><a href="#">Индивидуальные роскошные впечатления</a></li>
+                <li><a href="#">Эксклюзивный доступ к мероприятиям</a></li>
+                <li>
+                  <a href="#">Гибкая и ценообразование по договоренности</a>
+                </li>
+                <li>
+                  <a href="#">Пожизненная членская карта для путешествий</a>
+                </li>
+              </ul>
+              <div class="blue-button">
+                <a href="tel:+998974420308">Получить предложение</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96477.78654770803!2d68.59417409726561!3d40.91726250000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38adddc634cce881%3A0xfbb6b960e4f16f6a!2sChinoz%20Tumani%20Yovvosh%20Mfy!5e0!3m2!1sen!2s!4v1725212449584!5m2!1sen!2s"
+          width="100%"
+          height="500px"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen></iframe>
+      </div>
+      <div id="bron" class="container">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="wrapper">
+            <div class="section-heading">
+              <span>Забронируйте у нас</span>
+              <h2>Планируйте свое путешествие с нами</h2>
+              <!-- <h4 style="margin-top: 25px">Директор: Нилуфар Садикова</h4>
+              <h2>
+                <a style="color: #e1ac0c" href="tel:+998951270090">
+                  +998951270090</a
+                >
+              </h2> -->
+            </div>
+            <!-- Кнопка модального окна -->
+            <button id="modBtn" class="modal-btn">Забронировать</button>
+          </div>
+          <div id="modal" class="modal">
+            <!-- Содержание модального окна -->
+            <div class="modal-content">
+              <div class="close fa fa-close"></div>
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="left-content">
+                    <form onsubmit="submitModalForm(event)">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="section-heading">
+                            <span>Забронируйте поездку у нас</span>
+                            <h2>
+                              Давайте спланируем ваш следующий приключение
+                            </h2>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <fieldset>
+                            <input
+                              name="name"
+                              type="text"
+                              class="form-control"
+                              id="name1"
+                              placeholder="Ваше имя..."
+                              required="" />
+                          </fieldset>
+                        </div>
+                        <div class="col-md-6">
+                          <fieldset>
+                            <input
+                              name="email"
+                              type="email"
+                              class="form-control"
+                              id="email"
+                              placeholder="Ваш адрес электронной почты..."
+                              required="" />
+                          </fieldset>
+                        </div>
+                        <div class="col-md-6">
+                          <fieldset>
+                            <input
+                              name="phone"
+                              type="phone"
+                              class="form-control"
+                              id="phone"
+                              placeholder="Ваш ваш номер телефона..."
+                              required="" />
+                          </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                          <fieldset>
+                            <textarea
+                              name="message"
+                              rows="6"
+                              class="form-control"
+                              id="message"
+                              placeholder="Расскажите нам о ваших планах по путешествиям..."
+                              required=""></textarea>
+                          </fieldset>
+                        </div>
+                        <div class="col-md-12">
+                          <!-- <fieldset> -->
+                          <button
+                            type="submit"
+                            id="form-submit-modal"
+                            class="btn">
+                            Забронировать
+                          </button>
+                          <!-- </fieldset> -->
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="right-content">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="content">
+                          <div class="section-heading">
+                            <span>Свяжитесь с нами</span>
+                            <h2>Ваш партнер по путешествиям</h2>
+                          </div>
+                          <p>
+                            Планируйте свой мечтательный отпуск с нами. Наша
+                            команда готова помочь вам создать незабываемые
+                            впечатления от путешествий.
+                          </p>
+                          <ul>
+                            <li>
+                              <span>Телефон:</span
+                              ><a href="tel:+998333354555">+998 33 335 45 55</a>
+                            </li>
+                            <!-- <li>
+                              <span>Email:</span
+                              ><a href="#">princetour33@gmail.com</a>
+                            </li> -->
+                            <li>
+                              <span>Адрес:</span
+                              ><a href="#"
+                                >Тошкент вилояти Чиноз тумани Бешкапа мфй</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="about-veno">
+              <div class="logo">
+                <img src="./logo1.jpg" class="logo1" alt=" Логотип" />
+                <!-- <h2>FLY MODERN</h2> -->
+                <!-- <h5>AVIAKASSA VISA TOURISM</h5> -->
+              </div>
+              <p>
+                Исследуйте мир с Travel Avenue, вашим надежным партнером в
+                создании незабываемых путешествий. Мы верим в предоставление
+                исключительных опытов путешествий, превосходящих ожидания.
+              </p>
+
+              <ul class="social-icons">
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/profile.php?id=61565065000440&mibextid=ZbWKwL"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/prince.tour.uz/"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <!-- <a href="#"><i class="fa fa-telegram"></i></a> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="useful-links">
+              <div class="footer-heading">
+                <h4>Полезные ссылки</h4>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa fa-stop"></i>Блог</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-stop"></i>Свяжитесь с нами</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-stop"></i>О нас</a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa fa-stop"></i>Политика
+                        конфиденциальности</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="contact-info">
+              <div class="footer-heading">
+                <h4>Контактная информация</h4>
+              </div>
+              <p>
+                Готовы отправиться в следующее приключение? Свяжитесь с нами для
+                персональной помощи и запросов по путешествиям.
+              </p>
+              <ul>
+                <li>
+                  <span>Телефон:</span
+                  ><a href="tel:+998998159995">+998 99 815 99 95</a>
+                </li>
+                <!-- <li>
+                  <span>Email:</span
+                  ><a href="mailto:princetour33@gmail.com">princetour33@gmail.com</a>
+                </li> -->
+                <li>
+                  <span>Адрес:</span
+                  ><a href="#">Тошкент вилояти Чиноз тумани Бешкапа мфй</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function submitForm(event) {
+        event.preventDefault();
+
+        let bot = {
+          TOKEN: "7456061010:AAFxmYiMyFWzGCqJexHeMZzlNzddUvRh-BY",
+          chatID: "-1002214078047",
+        };
+
+        // Get form data
+        const name = document.getElementById("name").value;
+        const location = document.getElementById("location").value;
+        const tripStart = document.getElementById("start").value;
+
+        // Compose message
+        const message = `New travel booking:%0AName: ${name}%0ALocation: ${location}%0ATrip Start: ${tripStart}`;
+
+        // Replace 'YOUR_SERVER_SCRIPT_URL' with the actual URL of your server-side script
+        const serverScriptUrl = `https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${message}`;
+
+        // Send data to server-side script using Fetch API
+        fetch(serverScriptUrl, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ message }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            alert("Мы свяжемся с вами в ближайшее время. Спасибо!");
+            // Handle the response from the server if needed
+            console.log(data);
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+      }
+    </script>
+
+    <script>
+      function submitModalForm(event) {
+        event.preventDefault();
+        let bot = {
+          TOKEN: "7456061010:AAFxmYiMyFWzGCqJexHeMZzlNzddUvRh-BY",
+          chatID: "-1002214078047",
+        };
+
+        // Get form data for the modal form
+        const name = document.getElementById("name1").value;
+        const email = document.getElementById("email").value;
+        const phone = document.getElementById("phone").value;
+        const message = document.getElementById("message").value;
+
+        // Compose message for the modal form
+        const modalMessage = `New travel booking (modal form):%0AName: ${name}%0AEmail: ${email}%0APhone: ${phone}%0AMessage: ${message}`;
+
+        // Replace 'YOUR_SERVER_SCRIPT_URL' with the actual URL of your server-side script
+        const serverScriptUrl = `https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${modalMessage}`;
+
+        // Send data to server-side script using Fetch API
+        fetch(serverScriptUrl, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ message: modalMessage }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            // Handle the response from the server if needed
+            alert("Мы свяжемся с вами в ближайшее время. Спасибо!");
+            console.log(data);
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+      }
+    </script>
+
+    <script>
+      function showAlert() {
+        alert("Мы свяжемся с вами в ближайшее время. Спасибо!");
+      }
+    </script>
+
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+      type="text/javascript"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
+        );
+    </script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/datepicker.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
