@@ -1,1115 +1,1019 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Travel Avenue</title>
 
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Travel Avenue</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
-    <link rel="stylesheet" href="css/fontAwesome.css" />
-    <link rel="stylesheet" href="css/hero-slider.css" />
-    <link rel="stylesheet" href="css/owl-carousel.css" />
-    <link rel="stylesheet" href="css/datepicker.css" />
-    <link rel="stylesheet" href="css/templatemo-style.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"
-      rel="stylesheet" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="css/fontAwesome.css" />
+  <link rel="stylesheet" href="css/hero-slider.css" />
+  <link rel="stylesheet" href="css/owl-carousel.css" />
+  <link rel="stylesheet" href="css/datepicker.css" />
+  <link rel="stylesheet" href="css/templatemo-style.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-  </head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 
-  <body>
-    <div class="wrap">
-      <header id="header">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <button id="primary-nav-button" type="button">Menu</button>
-              <a href="index.html">
-                <div class="logo">
-                  <img src="./logo1.jpg" class="logo1" alt=" Логотип" />
-                </div>
-              </a>
-              <nav id="primary-nav" class="dropdown cf">
-                <ul class="dropdown menu">
-                  <li class="active"><a href="#">Home</a></li>
+  <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
 
-                  <li>
-                    <a class="scrollTo" data-scrollTo="blog" href="#">About</a>
-                  </li>
-                  <li>
-                    <a class="scrollTo" data-scrollTo="services" href="#"
-                      >Tours</a
-                    >
-                  </li>
-                  <li>
-                    <a class="scrollTo" data-scrollTo="contact" href="#"
-                      >Contact Us</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><img src="./img/images/englang.png" alt=""
-                    /></a>
-                    <ul class="sub-menu">
-                      <li>
-                        <a href="./uz.html"
-                          ><img src="./img/images/uz.png" alt=""
-                        /></a>
-                      </li>
-                      <li>
-                        <a href="./index.html"
-                          ><img src="./img/images/ru.png" alt=""
-                        /></a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </header>
-    </div>
-
-    <section class="banner" id="top">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="banner-caption">
-              <div class="line-dec"></div>
-              <h2>ARE YOU LOOKING TO TRAVEL?</h2>
-              <span
-                >Make your travel dreams a reality: plan, explore and create
-                unforgettable memories.</span
-              >
-              <div class="blue-button">
-                <a class="scrollTo" data-scrollTo="popular" href="#"
-                  >Discover More</a
-                >
-              </div>
-            </div>
-            <div class="submit-form">
-              <form
-                id="form-submit"
-                action="#"
-                method="get"
-                onsubmit="submitForm(event)">
-                <div class="row">
-                  <div class="col-md-3 first-item">
-                    <fieldset>
-                      <input
-                        name="name"
-                        type="text"
-                        class="form-control"
-                        id="name"
-                        placeholder="Your name..."
-                        required="" />
-                    </fieldset>
-                  </div>
-                  <div class="col-md-3 second-item">
-                    <fieldset>
-                      <input
-                        name="location"
-                        type="text"
-                        class="form-control"
-                        id="location"
-                        placeholder="Type location..."
-                        required="" />
-                    </fieldset>
-                  </div>
-                  <div class="col-md-3 third-item">
-                    <fieldset>
-                      <input
-                        type="date"
-                        id="start"
-                        name="trip-start"
-                        value="2024-07-22"
-                        min="2024-02-16"
-                        max="2099-12-31" />
-                    </fieldset>
-                  </div>
-                  <div class="col-md-3">
-                    <fieldset>
-                      <button type="submit" id="form-submit" class="btn">
-                        Make a reservation
-                      </button>
-                    </fieldset>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="popular-places" id="popular">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <span>Our Popular Destinations</span>
-              <h2>
-                Discover the beauty, culture, and experiences that make these
-                destinations truly special.
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="owl-carousel owl-theme">
-          <div class="item popular-item">
-            <div class="thumb">
-              <img src="img/images/istanbul.jpg" alt="" />
-              <div class="text-content">
-                <h4>Istanbul</h4>
-                <span>76 booked</span>
-              </div>
-              <!-- <div class="plus-button">
-                            <a href="#"><i class="fa fa-plus"></i></a>
-                        </div> -->
-            </div>
-          </div>
-          <div class="item popular-item">
-            <div class="thumb">
-              <img src="img/images/sharm2.jpg" alt="" />
-              <div class="text-content">
-                <h4>Sharm El-Sheykh</h4>
-                <span>96 booked</span>
-              </div>
-              <!-- <div class="plus-button">
-                            <a href="#"><i class="fa fa-plus"></i></a>
-                        </div> -->
-            </div>
-          </div>
-          <div class="item popular-item">
-            <div class="thumb">
-              <img src="img/images/best-02.jpg" alt="" />
-              <div class="text-content">
-                <h4>Thailand</h4>
-                <span>55 booked</span>
-              </div>
-              <!-- <div class="plus-button">
-                            <a href="#"><i class="fa fa-plus"></i></a>
-                        </div> -->
-            </div>
-          </div>
-          <div class="item popular-item">
-            <div class="thumb">
-              <img src="img/images/best-03.jpg" alt="" />
-              <div class="text-content">
-                <h4>Argentina</h4>
-                <span>66 booked</span>
-              </div>
-              <!-- <div class="plus-button">
-                            <a href="#"><i class="fa fa-plus"></i></a>
-                        </div> -->
-            </div>
-          </div>
-          <div class="item popular-item">
-            <div class="thumb">
-              <img src="img/images/dubai2.jpg" alt="" />
-              <div class="text-content">
-                <h4>Dubai</h4>
-                <span>76 booked</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="visit-country" style="margin-top: 30px">
-      <div class="container">
-        <div class="row">
-          <div class="">
-            <h2>Explore destinations easily</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div style="margin: 15px 0" class="col-lg-10">
-            <div class="items">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="item">
-                    <div class="row">
-                      <div class="col-lg-4 col-sm-5">
-                        <div class="image">
-                          <img
-                            style="border-radius: 20px"
-                            src="https://zamontour.uz/assets/images/afr.jpg"
-                            alt="" />
-                        </div>
-                      </div>
-                      <div class="col-lg-8 col-sm-7">
-                        <div class="right-content">
-                          <h2>Cheap Railway Tickets With Us</h2>
-                          <h5>Whole world</h5>
-                          <p>
-                            Embark on a railway adventure and explore
-                            destinations worldwide. Whether it's the picturesque
-                            landscapes, bustling cities, or cultural gems, our
-                            rail services offer a unique and comfortable way to
-                            traverse the globe. Immerse yourself in the beauty
-                            of different cultures, all accessible through our
-                            extensive railway network. .
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div style="margin: 15px 0" class="col-lg-10">
-            <div class="items">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="item">
-                    <div class="row">
-                      <div class="col-lg-4 col-sm-5">
-                        <div class="image">
-                          <img
-                            style="border-radius: 20px"
-                            src="https://zamontour.uz/assets/images/airplane.jpg"
-                            alt="" />
-                        </div>
-                      </div>
-                      <div class="col-lg-8 col-sm-7">
-                        <div class="right-content">
-                          <h2>Discover Exciting Air Travel Deals</h2>
-                          <h5>Global Destinations</h5>
-                          <p>
-                            Embark on an airborne adventure and explore
-                            destinations worldwide. Whether it's the
-                            breathtaking landscapes, vibrant cities, or cultural
-                            treasures, our airline services provide a convenient
-                            and exhilarating way to navigate the globe. Immerse
-                            yourself in the richness of diverse cultures, all
-                            easily accessible through our extensive air travel
-                            network. .
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div style="margin: 15px 0" class="col-lg-10">
-            <div class="items">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="item">
-                    <div class="row">
-                      <div class="col-lg-4 col-sm-5">
-                        <div class="image">
-                          <img
-                            style="border-radius: 20px"
-                            src="https://zamontour.uz/assets/images/dubai2.jpg"
-                            alt="" />
-                        </div>
-                      </div>
-                      <div class="col-lg-8 col-sm-7">
-                        <div class="right-content">
-                          <h2>Dubai</h2>
-                          <h5>United Arab Emirates</h5>
-
-                          <p>
-                            Dubai is a city and emirate in the United Arab
-                            Emirates, known for its luxury shopping,
-                            cutting-edge architecture, and vibrant nightlife.
-                            The Burj Khalifa, an 830-meter-tall tower, dominates
-                            the city's skyscrapers. At its base is the Dubai
-                            Fountain, whose jets and lights are adjusted to
-                            music. On artificial islands in the sea is the
-                            Atlantis, Palm, hotel, with a water park and a
-                            marine animal park.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div style="margin: 15px 0" class="col-lg-12">
-                  <div class="item">
-                    <div class="row">
-                      <div class="col-lg-4 col-sm-5">
-                        <div class="image">
-                          <img
-                            style="border-radius: 20px"
-                            src="https://zamontour.uz/assets/images/country-02.jpg"
-                            alt="" />
-                        </div>
-                      </div>
-                      <div class="col-lg-8 col-sm-7">
-                        <div class="right-content">
-                          <h2>Antalya</h2>
-                          <h5>Türkiye</h5>
-
-                          <p>
-                            Antalya is the fastest growing city in Turkey, and
-                            tourists from all over the world are discovering its
-                            fantastic combination of gorgeous beaches and
-                            traditional Turkish culture. Children will love the
-                            Beach Park, home to Aqualand (a rollercoaster
-                            lover's dream) and the Dolphinarium (home to
-                            dolphins, sea lions and white whales). Be sure to
-                            explore the old city center and see Hadrian's Gate.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div style="margin: 15px 0" class="col-lg-12">
-                  <div class="item last-item">
-                    <div class="row">
-                      <div class="col-lg-4 col-sm-5">
-                        <div class="image">
-                          <img
-                            style="border-radius: 20px"
-                            src="https://zamontour.uz/assets/images/sharm2.jpg"
-                            alt="" />
-                        </div>
-                      </div>
-                      <div class="col-lg-8 col-sm-7">
-                        <div class="right-content">
-                          <h2>Sharm El Sheikh</h2>
-                          <h5>Egypt</h5>
-                          <p>
-                            Sharm El Sheikh is the hub of tourism on the Sinai
-                            Peninsula and home to some of the best diving in the
-                            world. Especially the underwater wonders of Ras
-                            Mohammed National Park, which have taken Sharm to a
-                            whole new level. The city has dive sites and
-                            shipwrecks that attract advanced and amateur divers
-                            from all over the world to discover the unique
-                            marine life in the depths of the Red Sea.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div style="margin: 15px 0" class="col-lg-12">
-                  <div class="item last-item">
-                    <div class="row">
-                      <div class="col-lg-4 col-sm-5">
-                        <div class="image">
-                          <img
-                            style="border-radius: 20px"
-                            src="https://zamontour.uz/assets/images/istanbul3.jpg"
-                            alt="" />
-                        </div>
-                      </div>
-                      <div class="col-lg-8 col-sm-7">
-                        <div class="right-content">
-                          <h2>Istanbul</h2>
-                          <h5>Türkiye</h5>
-
-                          <p>
-                            Istanbul is the most populous city in Turkey and its
-                            cultural, economic and historical center. Situated
-                            in the northwestern part of Turkey, divided by the
-                            Bosphorus into European and Asian sides, which
-                            connects the Sea of ​​Marmara and the Black Sea.
-                            This city is the only one in the world that is
-                            located on two continents.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section class="featured-places" id="blog">
+<body>
+  <div class="wrap">
+    <header id="header">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="section-heading">
-              <span>Explore Our Destinations</span>
-              <h2>Discover Dubai, Turkey, and Sharm El Sheikh</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="featured-item">
-              <div class="thumb">
-                <img src="img/images/dubai.jpg" alt="Dubai" />
-                <div class="overlay-content">
-                  <ul>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
+            <button id="primary-nav-button" type="button">Menu</button>
+            <a href="index.html">
+              <div class="logo">
+                <img src="./logo1.jpg" class="logo1" alt=" Логотип" />
+              </div>
+            </a>
+            <nav id="primary-nav" class="dropdown cf">
+              <ul class="dropdown menu">
+                <li class="active"><a href="#">Home</a></li>
+
+                <li>
+                  <a class="scrollTo" data-scrollTo="blog" href="#">About</a>
+                </li>
+                <li>
+                  <a class="scrollTo" data-scrollTo="services" href="#">Tours</a>
+                </li>
+                <li>
+                  <a class="scrollTo" data-scrollTo="contact" href="#">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#"><img src="./img/images/englang.png" alt="" /></a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="./uz.html"><img src="./img/images/uz.png" alt="" /></a>
+                    </li>
+                    <li>
+                      <a href="./index.html"><img src="./img/images/ru.png" alt="" /></a>
+                    </li>
                   </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <section class="banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="banner-caption">
+            <div class="line-dec"></div>
+            <h2>ARE YOU LOOKING TO TRAVEL?</h2>
+            <span>Make your travel dreams a reality: plan, explore and create
+              unforgettable memories.</span>
+            <div class="blue-button">
+              <a class="scrollTo" data-scrollTo="popular" href="#">Discover More</a>
+            </div>
+          </div>
+          <div class="submit-form">
+            <form id="form-submit" action="#" method="get" onsubmit="submitForm(event)">
+              <div class="row">
+                <div class="col-md-3 first-item">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..."
+                      required="" />
+                  </fieldset>
                 </div>
-                <!-- <div class="date-content">
+                <div class="col-md-3 second-item">
+                  <fieldset>
+                    <input name="location" type="text" class="form-control" id="location" placeholder="Type location..."
+                      required="" />
+                  </fieldset>
+                </div>
+                <div class="col-md-3 third-item">
+                  <fieldset>
+                    <input type="date" id="start" name="trip-start" value="2024-07-22" min="2024-02-16"
+                      max="2099-12-31" />
+                  </fieldset>
+                </div>
+                <div class="col-md-3">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="btn">
+                      Make a reservation
+                    </button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="popular-places" id="popular">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <span>Our Popular Destinations</span>
+            <h2>
+              Discover the beauty, culture, and experiences that make these
+              destinations truly special.
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="owl-carousel owl-theme">
+        <div class="item popular-item">
+          <div class="thumb">
+            <img src="img/images/istanbul.jpg" alt="" />
+            <div class="text-content">
+              <h4>Istanbul</h4>
+              <span>76 booked</span>
+            </div>
+            <!-- <div class="plus-button">
+                            <a href="#"><i class="fa fa-plus"></i></a>
+                        </div> -->
+          </div>
+        </div>
+        <div class="item popular-item">
+          <div class="thumb">
+            <img src="img/images/sharm2.jpg" alt="" />
+            <div class="text-content">
+              <h4>Sharm El-Sheykh</h4>
+              <span>96 booked</span>
+            </div>
+            <!-- <div class="plus-button">
+                            <a href="#"><i class="fa fa-plus"></i></a>
+                        </div> -->
+          </div>
+        </div>
+        <div class="item popular-item">
+          <div class="thumb">
+            <img src="img/images/best-02.jpg" alt="" />
+            <div class="text-content">
+              <h4>Thailand</h4>
+              <span>55 booked</span>
+            </div>
+            <!-- <div class="plus-button">
+                            <a href="#"><i class="fa fa-plus"></i></a>
+                        </div> -->
+          </div>
+        </div>
+        <div class="item popular-item">
+          <div class="thumb">
+            <img src="img/images/best-03.jpg" alt="" />
+            <div class="text-content">
+              <h4>Argentina</h4>
+              <span>66 booked</span>
+            </div>
+            <!-- <div class="plus-button">
+                            <a href="#"><i class="fa fa-plus"></i></a>
+                        </div> -->
+          </div>
+        </div>
+        <div class="item popular-item">
+          <div class="thumb">
+            <img src="img/images/dubai2.jpg" alt="" />
+            <div class="text-content">
+              <h4>Dubai</h4>
+              <span>76 booked</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="visit-country" style="margin-top: 30px">
+    <div class="container">
+      <div class="row">
+        <div class="">
+          <h2>Explore destinations easily</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div style="margin: 15px 0" class="col-lg-10">
+          <div class="items">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="item">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-5">
+                      <div class="image">
+                        <img style="border-radius: 20px" src="https://zamontour.uz/assets/images/afr.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-7">
+                      <div class="right-content">
+                        <h2>Cheap Railway Tickets With Us</h2>
+                        <h5>Whole world</h5>
+                        <p>
+                          Embark on a railway adventure and explore
+                          destinations worldwide. Whether it's the picturesque
+                          landscapes, bustling cities, or cultural gems, our
+                          rail services offer a unique and comfortable way to
+                          traverse the globe. Immerse yourself in the beauty
+                          of different cultures, all accessible through our
+                          extensive railway network. .
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="margin: 15px 0" class="col-lg-10">
+          <div class="items">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="item">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-5">
+                      <div class="image">
+                        <img style="border-radius: 20px" src="https://zamontour.uz/assets/images/airplane.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-7">
+                      <div class="right-content">
+                        <h2>Discover Exciting Air Travel Deals</h2>
+                        <h5>Global Destinations</h5>
+                        <p>
+                          Embark on an airborne adventure and explore
+                          destinations worldwide. Whether it's the
+                          breathtaking landscapes, vibrant cities, or cultural
+                          treasures, our airline services provide a convenient
+                          and exhilarating way to navigate the globe. Immerse
+                          yourself in the richness of diverse cultures, all
+                          easily accessible through our extensive air travel
+                          network. .
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div style="margin: 15px 0" class="col-lg-10">
+          <div class="items">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="item">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-5">
+                      <div class="image">
+                        <img style="border-radius: 20px" src="https://zamontour.uz/assets/images/dubai2.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-7">
+                      <div class="right-content">
+                        <h2>Dubai</h2>
+                        <h5>United Arab Emirates</h5>
+
+                        <p>
+                          Dubai is a city and emirate in the United Arab
+                          Emirates, known for its luxury shopping,
+                          cutting-edge architecture, and vibrant nightlife.
+                          The Burj Khalifa, an 830-meter-tall tower, dominates
+                          the city's skyscrapers. At its base is the Dubai
+                          Fountain, whose jets and lights are adjusted to
+                          music. On artificial islands in the sea is the
+                          Atlantis, Palm, hotel, with a water park and a
+                          marine animal park.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="margin: 15px 0" class="col-lg-12">
+                <div class="item">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-5">
+                      <div class="image">
+                        <img style="border-radius: 20px" src="https://zamontour.uz/assets/images/country-02.jpg"
+                          alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-7">
+                      <div class="right-content">
+                        <h2>Antalya</h2>
+                        <h5>Türkiye</h5>
+
+                        <p>
+                          Antalya is the fastest growing city in Turkey, and
+                          tourists from all over the world are discovering its
+                          fantastic combination of gorgeous beaches and
+                          traditional Turkish culture. Children will love the
+                          Beach Park, home to Aqualand (a rollercoaster
+                          lover's dream) and the Dolphinarium (home to
+                          dolphins, sea lions and white whales). Be sure to
+                          explore the old city center and see Hadrian's Gate.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="margin: 15px 0" class="col-lg-12">
+                <div class="item last-item">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-5">
+                      <div class="image">
+                        <img style="border-radius: 20px" src="https://zamontour.uz/assets/images/sharm2.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-7">
+                      <div class="right-content">
+                        <h2>Sharm El Sheikh</h2>
+                        <h5>Egypt</h5>
+                        <p>
+                          Sharm El Sheikh is the hub of tourism on the Sinai
+                          Peninsula and home to some of the best diving in the
+                          world. Especially the underwater wonders of Ras
+                          Mohammed National Park, which have taken Sharm to a
+                          whole new level. The city has dive sites and
+                          shipwrecks that attract advanced and amateur divers
+                          from all over the world to discover the unique
+                          marine life in the depths of the Red Sea.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="margin: 15px 0" class="col-lg-12">
+                <div class="item last-item">
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-5">
+                      <div class="image">
+                        <img style="border-radius: 20px" src="https://zamontour.uz/assets/images/istanbul3.jpg"
+                          alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-7">
+                      <div class="right-content">
+                        <h2>Istanbul</h2>
+                        <h5>Türkiye</h5>
+
+                        <p>
+                          Istanbul is the most populous city in Turkey and its
+                          cultural, economic and historical center. Situated
+                          in the northwestern part of Turkey, divided by the
+                          Bosphorus into European and Asian sides, which
+                          connects the Sea of ​​Marmara and the Black Sea.
+                          This city is the only one in the world that is
+                          located on two continents.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="featured-places" id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <span>Explore Our Destinations</span>
+            <h2>Discover Dubai, Turkey, and Sharm El Sheikh</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="featured-item">
+            <div class="thumb">
+              <img src="img/images/dubai.jpg" alt="Dubai" />
+              <div class="overlay-content">
+                <ul>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <!-- <div class="date-content">
                                 <h6>28</h6>
                                 <span>August</span>
                             </div> -->
-              </div>
-              <div class="down-content">
-                <h4>Experience Luxury in Dubai</h4>
-                <span>Cityscape and Beyond</span>
-                <p>
-                  Indulge in the opulence of Dubai's skyscrapers, luxury
-                  shopping, and desert adventures. Explore a city where
-                  tradition meets modernity, offering an extraordinary blend of
-                  culture and extravagance.
-                </p>
-                <div class="row">
-                  <div class="col-md-6 first-button">
-                    <div class="text-button">
-                      <a href="tel:+998974420308">Learn More</a>
-                    </div>
+            </div>
+            <div class="down-content">
+              <h4>Experience Luxury in Dubai</h4>
+              <span>Cityscape and Beyond</span>
+              <p>
+                Indulge in the opulence of Dubai's skyscrapers, luxury
+                shopping, and desert adventures. Explore a city where
+                tradition meets modernity, offering an extraordinary blend of
+                culture and extravagance.
+              </p>
+              <div class="row">
+                <div class="col-md-6 first-button">
+                  <div class="text-button">
+                    <a href="tel:+998974420308">Learn More</a>
                   </div>
-                  <div class="col-md-6">
-                    <div class="text-button">
-                      <a href="#bron">Book Now</a>
-                    </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="text-button">
+                    <a href="#bron">Book Now</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- Repeat the above structure for Turkey and Sharm El Sheikh with respective details and images -->
+        <!-- Repeat the above structure for Turkey and Sharm El Sheikh with respective details and images -->
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="featured-item">
-              <div class="thumb">
-                <img src="img/images/istanbul.jpg" alt="Turkey" />
-                <div class="overlay-content">
-                  <ul>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                  </ul>
-                </div>
-                <!-- <div class="date-content">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="featured-item">
+            <div class="thumb">
+              <img src="img/images/istanbul.jpg" alt="Turkey" />
+              <div class="overlay-content">
+                <ul>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <!-- <div class="date-content">
                                 <h6>20</h6>
                                 <span>September</span>
                             </div> -->
-              </div>
-              <div class="down-content">
-                <h4>Discover the Rich Culture of Turkey</h4>
-                <span>Historical Wonders and Breathtaking Landscapes</span>
-                <p>
-                  Immerse yourself in Turkey's captivating history, from ancient
-                  ruins to vibrant markets. Enjoy the scenic landscapes,
-                  delicious cuisine, and warm hospitality that make Turkey a
-                  must-visit destination.
-                </p>
-                <div class="row">
-                  <div class="col-md-6 first-button">
-                    <div class="text-button">
-                      <a href="tel:+998974420308">Learn More</a>
-                    </div>
+            </div>
+            <div class="down-content">
+              <h4>Discover the Rich Culture of Turkey</h4>
+              <span>Historical Wonders and Breathtaking Landscapes</span>
+              <p>
+                Immerse yourself in Turkey's captivating history, from ancient
+                ruins to vibrant markets. Enjoy the scenic landscapes,
+                delicious cuisine, and warm hospitality that make Turkey a
+                must-visit destination.
+              </p>
+              <div class="row">
+                <div class="col-md-6 first-button">
+                  <div class="text-button">
+                    <a href="tel:+998974420308">Learn More</a>
                   </div>
-                  <div class="col-md-6">
-                    <div class="text-button">
-                      <a href="#bron">Book Now</a>
-                    </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="text-button">
+                    <a href="#bron">Book Now</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="featured-item">
-              <div class="thumb">
-                <img src="img/images/sharm.jpg" alt="Sharm El Sheikh" />
-                <div class="overlay-content">
-                  <ul>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                    <li><i class="fa fa-star"></i></li>
-                  </ul>
-                </div>
-                <!-- <div class="date-content">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="featured-item">
+            <div class="thumb">
+              <img src="img/images/sharm.jpg" alt="Sharm El Sheikh" />
+              <div class="overlay-content">
+                <ul>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                  <li><i class="fa fa-star"></i></li>
+                </ul>
+              </div>
+              <!-- <div class="date-content">
                                 <h6>12</h6>
                                 <span>October</span>
                             </div> -->
-              </div>
-              <div class="down-content">
-                <h4>Relax in Sharm El Sheikh's Paradise</h4>
-                <span>Sun, Sea, and Serenity</span>
-                <p>
-                  Escape to the stunning beaches and coral reefs of Sharm El
-                  Sheikh. Dive into the crystal-clear waters, unwind in
-                  luxurious resorts, and experience the ultimate relaxation in
-                  this tropical paradise.
-                </p>
-                <div class="row">
-                  <div class="col-md-6 first-button">
-                    <div class="text-button">
-                      <a href="tel:+998974420308">Learn More</a>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="text-button">
-                      <a href="#bron">Book Now</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="our-services" id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <span>Our Services</span>
-              <h2>Explore with Confidence</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="service-item">
-              <div class="icon">
-                <img src="img/service_icon_1.png" alt="" />
-              </div>
-              <h4>Curated Travel Experiences</h4>
+            <div class="down-content">
+              <h4>Relax in Sharm El Sheikh's Paradise</h4>
+              <span>Sun, Sea, and Serenity</span>
               <p>
-                Discover meticulously designed travel itineraries, ensuring
-                high-quality experiences tailored to your preferences. Our
-                expertly crafted packages guarantee unforgettable adventures.
+                Escape to the stunning beaches and coral reefs of Sharm El
+                Sheikh. Dive into the crystal-clear waters, unwind in
+                luxurious resorts, and experience the ultimate relaxation in
+                this tropical paradise.
               </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-item">
-              <div class="icon">
-                <img src="img/service_icon_2.png" alt="" />
-              </div>
-              <h4>Personalized Itineraries</h4>
-              <p>
-                Enjoy fully customizable travel plans that cater to your unique
-                interests and desires. We specialize in creating journeys that
-                reflect your individual preferences and travel aspirations.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-item">
-              <div class="icon">
-                <img src="img/service_icon_3.png" alt="" />
-              </div>
-              <h4>Expertly Crafted Travel Packages</h4>
-              <p>
-                Our packages provide a seamless blend of comfort, adventure, and
-                cultural immersion, ensuring an exceptional travel experience.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div id="plan" class="row">
-          <div class="col-md-12">
-            <div class="down-services">
               <div class="row">
-                <div class="col-md-5 col-md-offset-1">
+                <div class="col-md-6 first-button">
+                  <div class="text-button">
+                    <a href="tel:+998974420308">Learn More</a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="text-button">
+                    <a href="#bron">Book Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-services" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <span>Our Services</span>
+            <h2>Explore with Confidence</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-item">
+            <div class="icon">
+              <img src="img/service_icon_1.png" alt="" />
+            </div>
+            <h4>Curated Travel Experiences</h4>
+            <p>
+              Discover meticulously designed travel itineraries, ensuring
+              high-quality experiences tailored to your preferences. Our
+              expertly crafted packages guarantee unforgettable adventures.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <div class="icon">
+              <img src="img/service_icon_2.png" alt="" />
+            </div>
+            <h4>Personalized Itineraries</h4>
+            <p>
+              Enjoy fully customizable travel plans that cater to your unique
+              interests and desires. We specialize in creating journeys that
+              reflect your individual preferences and travel aspirations.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item">
+            <div class="icon">
+              <img src="img/service_icon_3.png" alt="" />
+            </div>
+            <h4>Expertly Crafted Travel Packages</h4>
+            <p>
+              Our packages provide a seamless blend of comfort, adventure, and
+              cultural immersion, ensuring an exceptional travel experience.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="plan" class="row">
+        <div class="col-md-12">
+          <div class="down-services">
+            <div class="row">
+              <div class="col-md-5 col-md-offset-1">
+                <div class="left-content">
+                  <h4>Plan Your Dream Getaway</h4>
+                  <p>
+                    Let us take care of every detail as you embark on your
+                    dream journey. Whether it's a cultural escape, an
+                    adventurous expedition, or a relaxing beach retreat, we
+                    ensure a hassle-free and unforgettable travel experience.
+                  </p>
+                  <div class="blue-button">
+                    <a href="#">Start Planning</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <div class="accordions">
+                  <ul class="accordion">
+                    <li>
+                      <a>Expert Guidance</a>
+                      <p>
+                        Receive guidance from our travel experts who are
+                        passionate about creating the perfect itinerary for
+                        you. From destination suggestions to travel tips, we
+                        are here to make your journey extraordinary.
+                      </p>
+                    </li>
+                    <li>
+                      <a>Customizable Options</a>
+                      <p>
+                        Tailor your travel experience with customizable
+                        options, ensuring every aspect of your journey aligns
+                        with your preferences. Choose accommodations,
+                        activities, and more to suit your unique style.
+                      </p>
+                    </li>
+                    <li>
+                      <a>24/7 Support</a>
+                      <p>
+                        Experience peace of mind with our 24/7 customer
+                        support. Whether you have questions during the
+                        planning process or need assistance while traveling,
+                        our team is always here to support you.
+                      </p>
+                    </li>
+                  </ul>
+                  <!-- / accordion -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="video-container">
+    <!-- <div class="video-overlay"></div> -->
+    <div class="video-content">
+      <div class="inner">
+        <!-- <h1 style="color: white;">Our one of the best destinations</h1> -->
+        <!-- <h2>Sed et risus ac sapien congue mattis.</h2> -->
+        <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+      </div>
+    </div>
+    <video autoplay="" loop="" muted>
+      <source src="highway-loop.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <section class="pricing-tables">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <span>Exclusive Offers</span>
+            <h2>Unlock Your Dream Vacation</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="table-item">
+            <div class="top-content">
+              <h4>Essential Explorer</h4>
+              <h1>Contact us</h1>
+            </div>
+            <ul>
+              <li><a href="#">Tailored Itinerary Planning</a></li>
+              <li>
+                <a href="#">Personalized Destination Recommendations</a>
+              </li>
+              <li><a href="#">Expert Travel Consultation</a></li>
+              <li><a href="#">24/7 Dedicated Support</a></li>
+              <li><a href="#">Flexible Pricing</a></li>
+            </ul>
+            <div class="blue-button">
+              <a href="tel:+998974420308">Get a Quote</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="table-item">
+            <div class="top-content">
+              <h4>Premium Voyager</h4>
+              <h1>Contact us</h1>
+            </div>
+            <ul>
+              <li><a href="#">Luxury Accommodations</a></li>
+              <li><a href="#">Exclusive Experiences</a></li>
+              <li><a href="#">Private Guided Tours</a></li>
+              <li><a href="#">Customized Travel Packages</a></li>
+              <li><a href="#">Negotiable Pricing</a></li>
+            </ul>
+            <div class="blue-button">
+              <a href="tel:+998974420308">Get a Quote</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="table-item">
+            <div class="top-content">
+              <h4>Ultimate Wanderer</h4>
+              <h1>Contact us</h1>
+            </div>
+            <ul>
+              <li><a href="#">VIP Travel Concierge</a></li>
+              <li><a href="#">Bespoke Luxury Experiences</a></li>
+              <li><a href="#">Exclusive Access to Events</a></li>
+              <li><a href="#">Flexible and Negotiable Prices</a></li>
+              <li><a href="#">Lifetime Travel Membership</a></li>
+            </ul>
+            <div class="blue-button">
+              <a href="tel:+998974420308">Get a Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div id="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3050.8532849134763!2d65.37587807599654!3d40.12327297148829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDA3JzIzLjgiTiA2NcKwMjInNDIuNCJF!5e0!3m2!1sen!2s!4v1739016384558!5m2!1sen!2s"
+        width="100%" height="500px" frameborder="0" style="border: 0" allowfullscreen></iframe>
+    </div>
+    <div id="bron" class="container">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="wrapper">
+          <div class="section-heading">
+            <span>Make a reservation with us</span>
+            <h2>Plan Your Journey with Us</h2>
+
+          </div>
+          <!-- Modal button -->
+          <button id="modBtn" class="modal-btn">Make a reservation</button>
+        </div>
+        <div id="modal" class="modal">
+          <!-- Modal Content -->
+          <div class="modal-content">
+            <div class="close fa fa-close"></div>
+            <form onsubmit="submitModalForm(event)">
+              <div class="row">
+                <div class="col-md-8">
                   <div class="left-content">
-                    <h4>Plan Your Dream Getaway</h4>
-                    <p>
-                      Let us take care of every detail as you embark on your
-                      dream journey. Whether it's a cultural escape, an
-                      adventurous expedition, or a relaxing beach retreat, we
-                      ensure a hassle-free and unforgettable travel experience.
-                    </p>
-                    <div class="blue-button">
-                      <a href="#">Start Planning</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-5">
-                  <div class="accordions">
-                    <ul class="accordion">
-                      <li>
-                        <a>Expert Guidance</a>
-                        <p>
-                          Receive guidance from our travel experts who are
-                          passionate about creating the perfect itinerary for
-                          you. From destination suggestions to travel tips, we
-                          are here to make your journey extraordinary.
-                        </p>
-                      </li>
-                      <li>
-                        <a>Customizable Options</a>
-                        <p>
-                          Tailor your travel experience with customizable
-                          options, ensuring every aspect of your journey aligns
-                          with your preferences. Choose accommodations,
-                          activities, and more to suit your unique style.
-                        </p>
-                      </li>
-                      <li>
-                        <a>24/7 Support</a>
-                        <p>
-                          Experience peace of mind with our 24/7 customer
-                          support. Whether you have questions during the
-                          planning process or need assistance while traveling,
-                          our team is always here to support you.
-                        </p>
-                      </li>
-                    </ul>
-                    <!-- / accordion -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="video-container">
-      <!-- <div class="video-overlay"></div> -->
-      <div class="video-content">
-        <div class="inner">
-          <!-- <h1 style="color: white;">Our one of the best destinations</h1> -->
-          <!-- <h2>Sed et risus ac sapien congue mattis.</h2> -->
-          <a href="http://youtube.com" target="_blank"
-            ><i class="fa fa-play"></i
-          ></a>
-        </div>
-      </div>
-      <video autoplay="" loop="" muted>
-        <source src="highway-loop.mp4" type="video/mp4" />
-      </video>
-    </section>
-
-    <section class="pricing-tables">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <span>Exclusive Offers</span>
-              <h2>Unlock Your Dream Vacation</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="table-item">
-              <div class="top-content">
-                <h4>Essential Explorer</h4>
-                <h1>Contact us</h1>
-              </div>
-              <ul>
-                <li><a href="#">Tailored Itinerary Planning</a></li>
-                <li>
-                  <a href="#">Personalized Destination Recommendations</a>
-                </li>
-                <li><a href="#">Expert Travel Consultation</a></li>
-                <li><a href="#">24/7 Dedicated Support</a></li>
-                <li><a href="#">Flexible Pricing</a></li>
-              </ul>
-              <div class="blue-button">
-                <a href="tel:+998974420308">Get a Quote</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="table-item">
-              <div class="top-content">
-                <h4>Premium Voyager</h4>
-                <h1>Contact us</h1>
-              </div>
-              <ul>
-                <li><a href="#">Luxury Accommodations</a></li>
-                <li><a href="#">Exclusive Experiences</a></li>
-                <li><a href="#">Private Guided Tours</a></li>
-                <li><a href="#">Customized Travel Packages</a></li>
-                <li><a href="#">Negotiable Pricing</a></li>
-              </ul>
-              <div class="blue-button">
-                <a href="tel:+998974420308">Get a Quote</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="table-item">
-              <div class="top-content">
-                <h4>Ultimate Wanderer</h4>
-                <h1>Contact us</h1>
-              </div>
-              <ul>
-                <li><a href="#">VIP Travel Concierge</a></li>
-                <li><a href="#">Bespoke Luxury Experiences</a></li>
-                <li><a href="#">Exclusive Access to Events</a></li>
-                <li><a href="#">Flexible and Negotiable Prices</a></li>
-                <li><a href="#">Lifetime Travel Membership</a></li>
-              </ul>
-              <div class="blue-button">
-                <a href="tel:+998974420308">Get a Quote</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <div id="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96477.78654770803!2d68.59417409726561!3d40.91726250000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38adddc634cce881%3A0xfbb6b960e4f16f6a!2sChinoz%20Tumani%20Yovvosh%20Mfy!5e0!3m2!1sen!2s!4v1725212449584!5m2!1sen!2s"
-          width="100%"
-          height="500px"
-          frameborder="0"
-          style="border: 0"
-          allowfullscreen></iframe>
-      </div>
-      <div id="bron" class="container">
-        <div class="col-md-10 col-md-offset-1">
-          <div class="wrapper">
-            <div class="section-heading">
-              <span>Make a reservation with us</span>
-              <h2>Plan Your Journey with Us</h2>
-           
-            </div>
-            <!-- Modal button -->
-            <button id="modBtn" class="modal-btn">Make a reservation</button>
-          </div>
-          <div id="modal" class="modal">
-            <!-- Modal Content -->
-            <div class="modal-content">
-              <div class="close fa fa-close"></div>
-              <form onsubmit="submitModalForm(event)">
-                <div class="row">
-                  <div class="col-md-8">
-                    <div class="left-content">
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="section-heading">
-                            <span>Book your reservation now</span>
-                            <h2>Let's Plan Your Next Adventure</h2>
-                          </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="section-heading">
+                          <span>Book your reservation now</span>
+                          <h2>Let's Plan Your Next Adventure</h2>
                         </div>
-                        <div class="col-md-6">
-                          <fieldset>
-                            <input
-                              name="name"
-                              type="text"
-                              class="form-control"
-                              id="name1"
-                              placeholder="Your name..."
-                              required="" />
-                          </fieldset>
-                        </div>
-                        <div class="col-md-6">
-                          <fieldset>
-                            <input
-                              name="email"
-                              type="email"
-                              class="form-control"
-                              id="email"
-                              placeholder="Your email..."
-                              required="" />
-                          </fieldset>
-                        </div>
-                        <div class="col-md-6">
-                          <fieldset>
-                            <input
-                              name="phone"
-                              type="text"
-                              class="form-control"
-                              id="phone"
-                              placeholder="Your phone"
-                              required="" />
-                          </fieldset>
-                        </div>
-                        <div class="col-md-12">
-                          <fieldset>
-                            <textarea
-                              name="message"
-                              rows="6"
-                              class="form-control"
-                              id="message"
-                              placeholder="Tell us about your travel plans..."
-                              required=""></textarea>
-                          </fieldset>
-                        </div>
-                        <div class="col-md-12">
-                          <fieldset>
-                            <button
-                              type="submit"
-                              id="form-submit-modal"
-                              class="btn">
-                              Make a reservation
-                            </button>
-                          </fieldset>
-                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <fieldset>
+                          <input name="name" type="text" class="form-control" id="name1" placeholder="Your name..."
+                            required="" />
+                        </fieldset>
+                      </div>
+                      <div class="col-md-6">
+                        <fieldset>
+                          <input name="email" type="email" class="form-control" id="email" placeholder="Your email..."
+                            required="" />
+                        </fieldset>
+                      </div>
+                      <div class="col-md-6">
+                        <fieldset>
+                          <input name="phone" type="text" class="form-control" id="phone" placeholder="Your phone"
+                            required="" />
+                        </fieldset>
+                      </div>
+                      <div class="col-md-12">
+                        <fieldset>
+                          <textarea name="message" rows="6" class="form-control" id="message"
+                            placeholder="Tell us about your travel plans..." required=""></textarea>
+                        </fieldset>
+                      </div>
+                      <div class="col-md-12">
+                        <fieldset>
+                          <button type="submit" id="form-submit-modal" class="btn">
+                            Make a reservation
+                          </button>
+                        </fieldset>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
-                    <div class="right-content">
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="content">
-                            <div class="section-heading">
-                              <span>Connect With Us</span>
-                              <h2>Your Travel Partner</h2>
-                            </div>
-                            <p>
-                              Plan your dream vacation with us. Our team is
-                              ready to assist you in creating memorable travel
-                              experiences.
-                            </p>
-                            <ul>
-                              <li>
-                                <span>Phone:</span
-                                ><a href="tel:+998333354555"
-                                  >+998 33 335 45 55</a
-                                >
-                              </li>
-                              <!-- <li>
+                </div>
+                <div class="col-md-4">
+                  <div class="right-content">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="content">
+                          <div class="section-heading">
+                            <span>Connect With Us</span>
+                            <h2>Your Travel Partner</h2>
+                          </div>
+                          <p>
+                            Plan your dream vacation with us. Our team is
+                            ready to assist you in creating memorable travel
+                            experiences.
+                          </p>
+                          <ul>
+                            <li>
+                              <span>Phone:</span><a href="tel:+998333354555">+998 33 335 45 55</a>
+                            </li>
+                            <!-- <li>
                                 <span>Email:</span
                                 ><a href="#">princetour33@gmail.com</a>
                               </li> -->
-                              <li>
-                                <span>Address:</span
-                                ><a href="#"
-                                  >Toshkent region Chinoz district Beshkapa
-                                  mfy</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
+                            <li>
+                              <span>Address:</span><a href="#">Orzu Street, Navoi City, Navoi Region</a>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </form>
-            </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5">
-            <div class="about-veno">
-              <div class="logo">
-                <img src="./logo1.jpg" class="logo1" alt=" Логотип" />
-             
-              </div>
-              <p>
-                Explore the world with Travel Avenue, your trusted partner in
-                creating unforgettable journeys. We believe in delivering
-                exceptional travel experiences that go beyond expectations.
-              </p>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="about-veno">
+            <div class="logo">
+              <img src="./logo1.jpg" class="logo1" alt=" Логотип" />
 
-              <ul class="social-icons">
-                <li>
-                  <a
-                    target="_blank"
-                    href="https://www.facebook.com/profile.php?id=61565065000440&mibextid=ZbWKwL"
-                    ><i class="fa fa-facebook"></i
-                  ></a>
-                  <a
-                    target="_blank"
-                    href="https://www.instagram.com/prince.tour.uz/"
-                    ><i class="fa fa-instagram"></i
-                  ></a>
-                </li>
-              </ul>
             </div>
+            <p>
+              Explore the world with Travel Avenue, your trusted partner in
+              creating unforgettable journeys. We believe in delivering
+              exceptional travel experiences that go beyond expectations.
+            </p>
+
+            <ul class="social-icons">
+              <li>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=61565065000440&mibextid=ZbWKwL"><i
+                    class="fa fa-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/prince.tour.uz/"><i class="fa fa-instagram"></i></a>
+              </li>
+            </ul>
           </div>
-          <div class="col-md-4">
-            <div class="useful-links">
-              <div class="footer-heading">
-                <h4>Useful Links</h4>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-stop"></i>Blog</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-stop"></i>Contact Us</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-stop"></i>About Us</a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-stop"></i>Privacy Policy</a>
-                    </li>
-                  </ul>
-                </div>
+        </div>
+        <div class="col-md-4">
+          <div class="useful-links">
+            <div class="footer-heading">
+              <h4>Useful Links</h4>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-stop"></i>Blog</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-stop"></i>Contact Us</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-stop"></i>About Us</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-stop"></i>Privacy Policy</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="contact-info">
-              <div class="footer-heading">
-                <h4>Contact Information</h4>
-              </div>
-              <p>
-                Ready to embark on your next adventure? Contact us for
-                personalized travel assistance and inquiries.
-              </p>
-              <ul>
-                <li>
-                  <span>Phone:</span
-                  ><a href="tel:+998998159995">+998 99 815 99 95</a>
-                </li>
-                <!-- <li>
+        </div>
+        <div class="col-md-3">
+          <div class="contact-info">
+            <div class="footer-heading">
+              <h4>Contact Information</h4>
+            </div>
+            <p>
+              Ready to embark on your next adventure? Contact us for
+              personalized travel assistance and inquiries.
+            </p>
+            <ul>
+              <li>
+                <span>Phone:</span><a href="tel:+998998159995">+998 99 815 99 95</a>
+              </li>
+              <!-- <li>
                   <span>Email:</span
                   ><a href="mailto:princetour33@gmail.com">princetour33@gmail.com</a>
                 </li> -->
-                <li>
-                  <span>Address:</span
-                  ><a href="#">Toshkent region Chinoz district Beshkapa mfy </a>
-                </li>
-              </ul>
-            </div>
+              <li>
+                <span>Address:</span><a href="#">Orzu Street, Navoi City, Navoi Region </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </footer>
-
-    <div class="sub-footer">
-      <p>Copyright &copy; 2024 Propartnyor JS</p>
     </div>
+  </footer>
 
-    <script>
-      function submitForm(event) {
-        event.preventDefault();
+  <div class="sub-footer">
+    <p>Copyright &copy; 2024 Propartnyor JS</p>
+  </div>
 
-        let bot = {
-          TOKEN: "7456061010:AAFxmYiMyFWzGCqJexHeMZzlNzddUvRh-BY",
-          chatID: "-1002214078047",
-        };
+  <script>
+    function submitForm(event) {
+      event.preventDefault();
 
-        // Get form data
-        const name = document.getElementById("name").value;
-        const location = document.getElementById("location").value;
-        const tripStart = document.getElementById("start").value;
+      let bot = {
+        TOKEN: "7456061010:AAFxmYiMyFWzGCqJexHeMZzlNzddUvRh-BY",
+        chatID: "-1002214078047",
+      };
 
-        // Compose message
-        const message = `New travel booking:%0AName: ${name}%0ALocation: ${location}%0ATrip Start: ${tripStart}`;
+      // Get form data
+      const name = document.getElementById("name").value;
+      const location = document.getElementById("location").value;
+      const tripStart = document.getElementById("start").value;
 
-        // Replace 'YOUR_SERVER_SCRIPT_URL' with the actual URL of your server-side script
-        const serverScriptUrl = `https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${message}`;
+      // Compose message
+      const message = `New travel booking:%0AName: ${name}%0ALocation: ${location}%0ATrip Start: ${tripStart}`;
 
-        // Send data to server-side script using Fetch API
-        fetch(serverScriptUrl, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ message }),
+      // Replace 'YOUR_SERVER_SCRIPT_URL' with the actual URL of your server-side script
+      const serverScriptUrl = `https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${message}`;
+
+      // Send data to server-side script using Fetch API
+      fetch(serverScriptUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ message }),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          // Handle the response from the server if needed
+          alert("Thank you! We will contact you soon.");
+          console.log(data);
         })
-          .then((response) => response.json())
-          .then((data) => {
-            // Handle the response from the server if needed
-            alert("Thank you! We will contact you soon.");
-            console.log(data);
-          })
-          .catch((error) => {
-            console.error("Error:", error);
-          });
-      }
-    </script>
+        .catch((error) => {
+          console.error("Error:", error);
+        });
+    }
+  </script>
 
-    <script>
-      function submitModalForm(event) {
-        event.preventDefault();
-        let bot = {
-          TOKEN: "7456061010:AAFxmYiMyFWzGCqJexHeMZzlNzddUvRh-BY",
-          chatID: "-1002214078047",
-        };
+  <script>
+    function submitModalForm(event) {
+      event.preventDefault();
+      let bot = {
+        TOKEN: "7456061010:AAFxmYiMyFWzGCqJexHeMZzlNzddUvRh-BY",
+        chatID: "-1002214078047",
+      };
 
-        // Get form data for the modal form
-        const name1 = document.getElementById("name1").value;
-        const email = document.getElementById("email").value;
-        const phone = document.getElementById("phone").value;
-        const message = document.getElementById("message").value;
+      // Get form data for the modal form
+      const name1 = document.getElementById("name1").value;
+      const email = document.getElementById("email").value;
+      const phone = document.getElementById("phone").value;
+      const message = document.getElementById("message").value;
 
-        console.log(name1, "sss");
+      console.log(name1, "sss");
 
-        // Compose message for the modal form
-        const modalMessage = `New travel booking (modal form):%0AName: ${name1}%0AEmail: ${email}%0APhone: ${phone}%0AMessage: ${message}`;
+      // Compose message for the modal form
+      const modalMessage = `New travel booking (modal form):%0AName: ${name1}%0AEmail: ${email}%0APhone: ${phone}%0AMessage: ${message}`;
 
-        // Replace 'YOUR_SERVER_SCRIPT_URL' with the actual URL of your server-side script
-        const serverScriptUrl = `https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${modalMessage}`;
+      // Replace 'YOUR_SERVER_SCRIPT_URL' with the actual URL of your server-side script
+      const serverScriptUrl = `https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${modalMessage}`;
 
-        // Send data to server-side script using Fetch API
-        fetch(serverScriptUrl, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ message: modalMessage }),
+      // Send data to server-side script using Fetch API
+      fetch(serverScriptUrl, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ message: modalMessage }),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          // Handle the response from the server if needed
+          alert("Thank you! We will contact you soon.");
+          console.log(data);
         })
-          .then((response) => response.json())
-          .then((data) => {
-            // Handle the response from the server if needed
-            alert("Thank you! We will contact you soon.");
-            console.log(data);
-          })
-          .catch((error) => {
-            console.error("Error:", error);
-          });
-      }
-    </script>
+        .catch((error) => {
+          console.error("Error:", error);
+        });
+    }
+  </script>
 
-    <script>
-      function showAlert() {
-        alert("Thank you! We will contact you soon.");
-      }
-    </script>
+  <script>
+    function showAlert() {
+      alert("Thank you! We will contact you soon.");
+    }
+  </script>
 
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
-      type="text/javascript"></script>
-    <script>
-      window.jQuery ||
-        document.write(
-          '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
-        );
-    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+  <script>
+    window.jQuery ||
+      document.write(
+        '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
+      );
+  </script>
 
-    <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
 
-    <script src="js/datepicker.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/datepicker.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
